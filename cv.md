@@ -1,4 +1,4 @@
-#rsschool-cv
+# rsschool-cv
 
 ---
 ## Aliaksandr Valiantsinau
