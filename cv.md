@@ -2,7 +2,7 @@
 
 ---
 ## Aliaksandr Valiantsinau
-![foto by Aliaksandr Valiantsinau](/photo_2022-06-04_14-37-29.jpg)
+![foto by Aliaksandr Valiantsinau](img/photo_2022-06-04_14-37-29.jpg)
 
 ---
 
