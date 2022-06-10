@@ -242,6 +242,34 @@
         </div>
       </div>
     </section>
+
+    <section class="code">
+      <div class="container">
+        <h2 class="code__title title-all">Example my code</h2>
+        <p class="code__text">
+          <code class="code__text-code">
+            document.querySelector(".header__burger-open").addEventListener("click", function() {
+              document.querySelector(".header__nav").classList.add("active");
+              document.body.classList.add("locked");
+            });
+          </code>
+        </p>
+          <p class="code__text">
+            <code class="code__text-code">
+              document.querySelector(".header__burger-closed").addEventListener("click", function() {
+                document.querySelector(".header__nav").classList.remove("active");
+                document.body.classList.remove("locked");
+              });
+            </code>
+          </p>
+      </div>
+    </section>
+
+    <section class="work">
+      <div class="container">
+        <h2 class="work__title title-all">Example my work</h2>
+      </div>
+    </section>
   </main>
 
   <script src="js/swiper-bundle.min.js"></script>
