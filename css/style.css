@@ -297,11 +297,38 @@ ul {
   text-shadow: 0px 0px 2px var(--white-color);
 }
 
+/* about */
+
+.about {
+  padding: 80px 0;
+  border-bottom: 2px solid var(--cornflower-blue-color);
+}
+
+.about__content {
+  max-width: 1000px;
+}
+
+.about__title {
+  margin-bottom: 50px;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: var(--night-rider-color);
+}
+
+.about__text:not(:first-child) {
+  margin-bottom: 20px;
+}
+
 /* skils */
 
 .skils {
   padding: 80px 0;
   border-bottom: 2px solid var(--cornflower-blue-color);
+  background-color: rgba(108,	155,	250,	0.3);;
 }
 
 .skils__title {
