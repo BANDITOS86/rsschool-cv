@@ -86,11 +86,13 @@ ul {
 
 :root {
   --cornflower-blue-color: #6C9BFA;
+  --cornflower-blue-03-color: rgba(108,	155,	250,	0.3);
   --cornflower-blue-07-color: rgba(108,	155,	250,	0.7);
   --night-rider-color: #333333;
   --black-color: #000000;
   --studio-color: #7943A4;
   --white-color: #ffffff;
+  --cornflower-blue-color: #6495ED;
 }
 
 .title-all {
@@ -325,7 +327,7 @@ ul {
 .skils {
   padding: 80px 0;
   border-bottom: 2px solid var(--cornflower-blue-color);
-  background-color: rgba(108,	155,	250,	0.3);
+  background-color: var(--cornflower-blue-03-color);
 }
 
 .skils__list {
@@ -400,9 +402,85 @@ ul {
 .work {
   padding: 80px 0;
   border-bottom: 2px solid var(--cornflower-blue-color);
-  background-color: rgba(108,	155,	250,	0.3);
+  background-color: var(--cornflower-blue-03-color);
 }
 
+.work__list {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+}
+
+.work__item {
+  position: relative;
+}
+
+.work__item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 50%;
+  height: 5px;
+  background-color: var(--cornflower-blue-color);
+  border-radius: 100px;
+  transition: all .3s ease-in-out;
+}
+
+.work__item:hover::after {
+  width: 100%;
+  background-color: var(--studio-color);
+  box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.5);
+}
+
+.work__item-link-img {
+  max-height: 208px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 23%);
+  transition: all .3s ease-in-out;
+}
+
+.work__item-link-img:hover {
+  box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.5);
+}
+
+.work__item-link-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+  color: var(--night-rider-color);
+  text-shadow: 0px 0px 5px rgba(51,51,51,0.5);
+  transition: all .3s ease-in-out;
+}
+
+.work__item:hover .work__item-link-title {
+  color: var(--studio-color);
+  text-shadow:0px 0px 10px #000000;
+}
+
+.work__item-link-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work__item-link-stack svg {
+  width: 30px;
+  height: 30px;
+  transition: all .3s ease-in-out;
+}
+
+.work__item:hover .work-icon {
+  filter: drop-shadow(0px 0px 10px #000000);
+}
+
+.work-icon.work-icon--php {
+  width: 60px;
+}
+
+.work-icon:not(:last-child) {
+  margin-right: 10px;
+}
 
 
 

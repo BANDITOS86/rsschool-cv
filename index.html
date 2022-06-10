@@ -28,7 +28,7 @@
           <li class="header__item"><a class="header__item-link" href="#">Skils</a></li>
           <li class="header__item"><a class="header__item-link" href="#">Example my code</a></li>
           <li class="header__item"><a class="header__item-link" href="#">Example my work</a></li>
-          <li class="header__item"><a class="header__item-link" href="#">Education Information</a></li>
+          <li class="header__item"><a class="header__item-link" href="#">Education</a></li>
           <li class="header__item"><a class="header__item-link" href="#">Contacts</a></li>
         </ul>
       </nav>
@@ -65,11 +65,15 @@
         <div class="about__content">
           <h2 class="about__title title-all">About me</h2>
           <p class="about__text">
-            I'm 36 years old. I am from Belarus city of Vitebsk. I started learning programming in July 2021. From October 2021 to December 2021 there was a break in training. Since January 2022, I have been completely devoted to my studies in this direction. I am currently learning programming languages such as HTML, CSS, JavaScript. I plan to learn Node.js, TypeScript and the React.js framework professionally.
+            I'm 36 years old. I am from Belarus city of Vitebsk. I started learning programming in July 2021. From
+            October 2021 to December 2021 there was a break in training. Since January 2022, I have been completely
+            devoted to my studies in this direction. I am currently learning programming languages such as HTML, CSS,
+            JavaScript. I plan to learn Node.js, TypeScript and the React.js framework professionally.
           </p>
-  
+
           <p class="about__text">
-            I am attentive to details, I like to work in a team, I am purposeful, stress-resistant, hardworking, sociable, responsible and I like to gain new knowledge and develop.
+            I am attentive to details, I like to work in a team, I am purposeful, stress-resistant, hardworking,
+            sociable, responsible and I like to gain new knowledge and develop.
           </p>
         </div>
       </div>
@@ -254,20 +258,177 @@
             });
           </code>
         </p>
-          <p class="code__text">
-            <code class="code__text-code">
+        <p class="code__text">
+          <code class="code__text-code">
               document.querySelector(".header__burger-closed").addEventListener("click", function() {
                 document.querySelector(".header__nav").classList.remove("active");
                 document.body.classList.remove("locked");
               });
             </code>
-          </p>
+        </p>
       </div>
     </section>
 
     <section class="work">
       <div class="container">
         <h2 class="work__title title-all">Example my work</h2>
+        <ul class="work__list">
+          <li class="work__item">
+            <a class="work__item-link" href="https://djvalentinoff.github.io/Blanchard/" target="_blank">
+              <img class="work__item-link-img" src="img/work/work1.webp" alt="Screenshot from the site Blanchard">
+              <div class="work__item-link-info">
+                <h3 class="work__item-link-title">Art gallery "Blanchard"</h3>
+                <div class="work__item-link-stack">
+                  <svg class="work-icon" role="img" aria-label="HTML5" xmlns="http://www.w3.org/2000/svg"
+                    viewbox="0 0 512 512">
+                    <path fill="#e34f26" d="M71 460L30 0h451l-41 460-185 52"></path>
+                    <path fill="#ef652a" d="M256 472l149-41 35-394H256"></path>
+                    <path fill="#ebebeb"
+                      d="M256 208h-75l-5-58h80V94H114l15 171h127zm-1 147l-63-17-4-45h-56l7 89 116 32z"></path>
+                    <path fill="#fff" d="M255 208v57h70l-7 73-63 17v59l116-32 16-174zm0-114v56h137l5-56z"></path>
+                  </svg>
+                  <svg class="work-icon" role="img" aria-label="CSS3" xmlns="http://www.w3.org/2000/svg"
+                    viewbox="0 0 512 512">
+                    <path fill="#264de4" d="M72 460L30 0h451l-41 460-184 52"></path>
+                    <path fill="#2965f1" d="M256 37V472l149-41 35-394"></path>
+                    <path fill="#ebebeb" d="m114 94h142v56H119m5 58h132v57H129m3 28h56l4 45 64 17v59L139 382"></path>
+                    <path fill="#fff" d="m256 208v57h69l-7 73-62 17v59l115-32 26-288H256v56h80l-5.5 58Z"></path>
+                  </svg>
+                  <svg class="work-icon" width="24px" height="24px" viewbox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fill-rule="evenodd">
+                      <rect width="24" height="24" fill="#F1DC50"></rect>
+                      <path stroke="#333" stroke-width="2"
+                        d="M12,11 C12,15.749205 12,18.4158717 12,19 C12,19.8761925 11.4771235,21 10,21 C7.61461794,21 7.5,19 7.5,19 M20.7899648,13.51604 C20.1898831,12.5053467 19.3944074,12 18.4035378,12 C16.8563489,12 16,13 16,14 C16,15 16.5,16 18.5084196,16.5 C19.7864643,16.8181718 21,17.5 21,19 C21,20.5 19.6845401,21 18.5,21 C16.9861609,21 15.9861609,20.3333333 15.5,19">
+                      </path>
+                    </g>
+                  </svg>
+                  <svg class="work-icon work-icon--php" width="2500" height="1309" viewbox="0 0 256 134"
+                    xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMinYMin meet">
+                    <g fill-rule="evenodd">
+                      <ellipse fill="#8993BE" cx="128" cy="66.63" rx="128" ry="66.63"></ellipse>
+                      <path
+                        d="M35.945 106.082l14.028-71.014H82.41c14.027.877 21.041 7.89 21.041 20.165 0 21.041-16.657 33.315-31.562 32.438H56.11l-3.507 18.411H35.945zm23.671-31.561L64 48.219h11.397c6.137 0 10.52 2.63 10.52 7.89-.876 14.905-7.89 17.535-15.78 18.412h-10.52zM100.192 87.671l14.027-71.013h16.658l-3.507 18.41h15.78c14.028.877 19.288 7.89 17.535 16.658l-6.137 35.945h-17.534l6.137-32.438c.876-4.384.876-7.014-5.26-7.014H124.74l-7.89 39.452h-16.658zM153.425 106.082l14.027-71.014h32.438c14.028.877 21.042 7.89 21.042 20.165 0 21.041-16.658 33.315-31.562 32.438h-15.781l-3.507 18.411h-16.657zm23.67-31.561l4.384-26.302h11.398c6.137 0 10.52 2.63 10.52 7.89-.876 14.905-7.89 17.535-15.78 18.412h-10.521z"
+                        fill="#232531"></path>
+                    </g>
+                  </svg>
+                  <svg class="work-icon" width="32px" height="32px" viewbox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>file_type_git</title>
+                    <path
+                      d="M29.472,14.753,17.247,2.528a1.8,1.8,0,0,0-2.55,0L12.158,5.067l3.22,3.22a2.141,2.141,0,0,1,2.712,2.73l3.1,3.1a2.143,2.143,0,1,1-1.285,1.21l-2.895-2.895v7.617a2.141,2.141,0,1,1-1.764-.062V12.3a2.146,2.146,0,0,1-1.165-2.814L10.911,6.314,2.528,14.7a1.8,1.8,0,0,0,0,2.551L14.753,29.472a1.8,1.8,0,0,0,2.55,0L29.472,17.3a1.8,1.8,0,0,0,0-2.551"
+                      style="fill:#dd4c35"></path>
+                    <path
+                      d="M12.158,5.067l3.22,3.22a2.141,2.141,0,0,1,2.712,2.73l3.1,3.1a2.143,2.143,0,1,1-1.285,1.21l-2.895-2.895v7.617a2.141,2.141,0,1,1-1.764-.062V12.3a2.146,2.146,0,0,1-1.165-2.814L10.911,6.314"
+                      style="fill:#fff"></path>
+                  </svg>
+                  <svg class="work-icon" width="384px" height="384px" viewbox="-64 0 384 384" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    preserveaspectratio="xMidYMid">
+                    <g>
+                      <path
+                        d="M64,384 C99.328,384 128,355.328 128,320 L128,256 L64,256 C28.672,256 0,284.672 0,320 C0,355.328 28.672,384 64,384 Z"
+                        fill="#0ACF83"></path>
+                      <path
+                        d="M0,192 C0,156.672 28.672,128 64,128 L128,128 L128,256 L64,256 C28.672,256 0,227.328 0,192 Z"
+                        fill="#A259FF"></path>
+                      <path d="M0,64 C0,28.672 28.672,0 64,0 L128,0 L128,128 L64,128 C28.672,128 0,99.328 0,64 Z"
+                        fill="#F24E1E"></path>
+                      <path
+                        d="M128,0 L192,0 C227.328,0 256,28.672 256,64 C256,99.328 227.328,128 192,128 L128,128 L128,0 Z"
+                        fill="#FF7262"></path>
+                      <path
+                        d="M256,192 C256,227.328 227.328,256 192,256 C156.672,256 128,227.328 128,192 C128,156.672 156.672,128 192,128 C227.328,128 256,156.672 256,192 Z"
+                        fill="#1ABCFE"></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="work__item">
+            <a class="work__item-link" href="https://djvalentinoff.github.io/3dskillbox-grid-bootstrap/"
+              target="_blank">
+              <img class="work__item-link-img" src="img/work/work2.webp"
+                alt="Screenshot from the site Courses 3d modeling">
+              <div class="work__item-link-info">
+                <h3 class="work__item-link-title">Courses 3d modeling Skillbox</h3>
+                <div class="work__item-link-stack">
+                  <svg class="work-icon" role="img" aria-label="HTML5" xmlns="http://www.w3.org/2000/svg"
+                    viewbox="0 0 512 512">
+                    <path fill="#e34f26" d="M71 460L30 0h451l-41 460-185 52"></path>
+                    <path fill="#ef652a" d="M256 472l149-41 35-394H256"></path>
+                    <path fill="#ebebeb"
+                      d="M256 208h-75l-5-58h80V94H114l15 171h127zm-1 147l-63-17-4-45h-56l7 89 116 32z"></path>
+                    <path fill="#fff" d="M255 208v57h70l-7 73-63 17v59l116-32 16-174zm0-114v56h137l5-56z"></path>
+                  </svg>
+                  <svg class="work-icon" role="img" aria-label="CSS3" xmlns="http://www.w3.org/2000/svg"
+                    viewbox="0 0 512 512">
+                    <path fill="#264de4" d="M72 460L30 0h451l-41 460-184 52"></path>
+                    <path fill="#2965f1" d="M256 37V472l149-41 35-394"></path>
+                    <path fill="#ebebeb" d="m114 94h142v56H119m5 58h132v57H129m3 28h56l4 45 64 17v59L139 382"></path>
+                    <path fill="#fff" d="m256 208v57h69l-7 73-62 17v59l115-32 26-288H256v56h80l-5.5 58Z"></path>
+                  </svg>
+                  <svg class="work-icon" width="24px" height="24px" viewbox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fill-rule="evenodd">
+                      <rect width="24" height="24" fill="#F1DC50"></rect>
+                      <path stroke="#333" stroke-width="2"
+                        d="M12,11 C12,15.749205 12,18.4158717 12,19 C12,19.8761925 11.4771235,21 10,21 C7.61461794,21 7.5,19 7.5,19 M20.7899648,13.51604 C20.1898831,12.5053467 19.3944074,12 18.4035378,12 C16.8563489,12 16,13 16,14 C16,15 16.5,16 18.5084196,16.5 C19.7864643,16.8181718 21,17.5 21,19 C21,20.5 19.6845401,21 18.5,21 C16.9861609,21 15.9861609,20.3333333 15.5,19">
+                      </path>
+                    </g>
+                  </svg>
+                  <svg class="work-icon" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                    text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd"
+                    clip-rule="evenodd" viewbox="0 0 512 408">
+                    <defs>
+                      <lineargradient id="b" gradientunits="userSpaceOnUse" x1="76" y1="10" x2="523" y2="365">
+                        <stop offset="0" stop-color="#9013FE"></stop>
+                        <stop offset="1" stop-color="#6610F2"></stop>
+                      </lineargradient>
+                    </defs>
+                    <path fill="url(#b)" fill-rule="nonzero"
+                      d="M56.48 53.32C55.52 25.58 77.13 0 106.34 0H405.7c29.21 0 50.82 25.58 49.86 53.32-.93 26.65.27 61.16 8.96 89.31 8.72 28.23 23.41 46.08 47.48 48.37v26c-24.07 2.29-38.76 20.14-47.48 48.37-8.69 28.15-9.89 62.66-8.96 89.31.96 27.74-20.65 53.32-49.86 53.32H106.34c-29.21 0-50.82-25.58-49.86-53.32.93-26.65-.28-61.16-8.96-89.31C38.8 237.14 24.07 219.29 0 217v-26c24.07-2.29 38.8-20.14 47.52-48.37 8.68-28.15 9.89-62.66 8.96-89.31z">
+                    </path>
+                    <path fill="#fff"
+                      d="M342.9 251.1c0 38.2-28.5 61.36-75.8 61.36h-89.2v-217h88.74c39.44 0 65.32 21.35 65.32 54.13 0 23.01-17.4 43.62-39.59 47.22v1.21c30.2 3.31 50.53 24.21 50.53 53.08zm-130.49 33.84v-71.43h45.6c32.66 0 49.61 12.03 49.61 35.49s-16.48 35.94-47.6 35.94h-47.61zm0-161.96h45.91c24.96 0 39.13 11.13 39.13 31.28 0 21.5-16.48 33.53-46.37 33.53h-38.67v-64.81z">
+                    </path>
+                  </svg>
+                  <svg class="work-icon" width="32px" height="32px" viewbox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>file_type_git</title>
+                    <path
+                      d="M29.472,14.753,17.247,2.528a1.8,1.8,0,0,0-2.55,0L12.158,5.067l3.22,3.22a2.141,2.141,0,0,1,2.712,2.73l3.1,3.1a2.143,2.143,0,1,1-1.285,1.21l-2.895-2.895v7.617a2.141,2.141,0,1,1-1.764-.062V12.3a2.146,2.146,0,0,1-1.165-2.814L10.911,6.314,2.528,14.7a1.8,1.8,0,0,0,0,2.551L14.753,29.472a1.8,1.8,0,0,0,2.55,0L29.472,17.3a1.8,1.8,0,0,0,0-2.551"
+                      style="fill:#dd4c35"></path>
+                    <path
+                      d="M12.158,5.067l3.22,3.22a2.141,2.141,0,0,1,2.712,2.73l3.1,3.1a2.143,2.143,0,1,1-1.285,1.21l-2.895-2.895v7.617a2.141,2.141,0,1,1-1.764-.062V12.3a2.146,2.146,0,0,1-1.165-2.814L10.911,6.314"
+                      style="fill:#fff"></path>
+                  </svg>
+                  <svg class="work-icon" width="384px" height="384px" viewbox="-64 0 384 384" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    preserveaspectratio="xMidYMid">
+                    <g>
+                      <path
+                        d="M64,384 C99.328,384 128,355.328 128,320 L128,256 L64,256 C28.672,256 0,284.672 0,320 C0,355.328 28.672,384 64,384 Z"
+                        fill="#0ACF83"></path>
+                      <path
+                        d="M0,192 C0,156.672 28.672,128 64,128 L128,128 L128,256 L64,256 C28.672,256 0,227.328 0,192 Z"
+                        fill="#A259FF"></path>
+                      <path d="M0,64 C0,28.672 28.672,0 64,0 L128,0 L128,128 L64,128 C28.672,128 0,99.328 0,64 Z"
+                        fill="#F24E1E"></path>
+                      <path
+                        d="M128,0 L192,0 C227.328,0 256,28.672 256,64 C256,99.328 227.328,128 192,128 L128,128 L128,0 Z"
+                        fill="#FF7262"></path>
+                      <path
+                        d="M256,192 C256,227.328 227.328,256 192,256 C156.672,256 128,227.328 128,192 C128,156.672 156.672,128 192,128 C227.328,128 256,156.672 256,192 Z"
+                        fill="#1ABCFE"></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
