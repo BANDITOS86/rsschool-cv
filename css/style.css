@@ -555,6 +555,47 @@ ul {
   margin-right: 40px;
 }
 
+/* contacts */
+
+.contacts {
+  padding: 80px 0;
+  border-bottom: 2px solid var(--cornflower-blue-color);
+  background-color: var(--cornflower-blue-03-color);
+}
+
+.contacts__list {
+  column-count: 2;
+}
+
+.contacts__item {
+  margin-bottom: 30px;
+}
+
+.contacts__link {
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 44px;
+  color: var(--night-rider-color);
+}
+
+.contacts__link:hover {
+  color: var(--studio-color);
+  text-shadow:0px 0px 10px #000000;
+}
+
+.contacts__link svg {
+  width: 60px;
+  height: 60px;
+}
+
+.contacts__link:hover svg {
+  filter: drop-shadow(0px 0px 10px #000000);
+}
+
 
 
 
