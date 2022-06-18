@@ -275,6 +275,7 @@ ul {
 .hero {
   position: relative;
   border-bottom: 2px solid var(--cornflower-blue-color);
+  height: calc(100vh - 100px);
 }  
 
 .hero__swiper {
@@ -368,8 +369,8 @@ ul {
 
 .hero__content {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box; */
+  /* display: -ms-flexbox; */
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -377,7 +378,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 90px 25px;
+  padding: 10% 15px;
 }
 
 .hero__content-img-pic {
@@ -411,7 +412,7 @@ ul {
 /* about */
 
 .about {
-  padding: 80px 0;
+  padding: 50px 0;
   border-bottom: 2px solid var(--cornflower-blue-color);
 }
 
@@ -433,7 +434,7 @@ ul {
 /* skils */
 
 .skils {
-  padding: 80px 0;
+  padding: 50px 0;
   border-bottom: 2px solid var(--cornflower-blue-color);
   background-color: var(--cornflower-blue-03-color);
 }
@@ -532,7 +533,7 @@ ul {
 /* code */
 
 .code {
-  padding: 80px 0;
+  padding: 50px 0;
   border-bottom: 2px solid var(--cornflower-blue-color);
 }
 
@@ -554,7 +555,7 @@ ul {
 /* work */
 
 .work {
-  padding: 80px 0;
+  padding: 50px 0;
   border-bottom: 2px solid var(--cornflower-blue-color);
   background-color: var(--cornflower-blue-03-color);
 }
@@ -661,7 +662,7 @@ ul {
 /* education */
 
 .education {
-  padding: 80px 0;
+  padding: 50px 0;
   border-bottom: 2px solid var(--cornflower-blue-color);
 }
 
@@ -826,7 +827,7 @@ ul {
 /* contacts */
 
 .contacts {
-  padding: 80px 0;
+  padding: 50px 0;
   border-bottom: 2px solid var(--cornflower-blue-color);
   background-color: var(--cornflower-blue-03-color);
 }
