@@ -49,6 +49,10 @@ body {
   font-family: 'Open Sans', 'sans-serif';
 }
 
+body.locked {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -371,6 +375,8 @@ ul {
   position: relative;
   /* display: -webkit-box; */
   /* display: -ms-flexbox; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -948,7 +954,7 @@ ul {
   top: auto;
   left: auto;
   right: 50px;
-  bottom: 15vh;
+  bottom: 5vh;
   -webkit-transition: all .3s ease 0s;
   -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
@@ -958,8 +964,8 @@ ul {
 }
 
 .button__to-top svg {
-  width: 128px;
-  height: 128px;
+  width: 64px;
+  height: 64px;
   fill: var(--violet-09-color);
   -webkit-transition: fill .3s ease-in-out;
   -o-transition: fill .3s ease-in-out;
@@ -1383,5 +1389,4 @@ ul {
     width: 150px;
   }
 }
-
 
