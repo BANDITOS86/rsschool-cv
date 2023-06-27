@@ -1,2 +1,3 @@
-https://djvalentinoff.github.io/rsschool-cv/cv                                                                                                                             
-https://djvalentinoff.github.io/rsschool-cv/
+https://banditos86.github.io/rsschool-cv/cv                                                                                                                     
+https://banditos86.github.io/rsschool-cv/
+
